@@ -31,12 +31,14 @@ echo "<br>";
          $data[$k]=$data[$k-1]; "<br>";
          $data[$k-1]=$dummy; "<br>";
         echo "<br>";
+        
+        print_r($data);
+        echo "<br>";
       }
     
       }
 
-      print_r($data);
-      echo "<br>";
+      
     }
         return $data;
  
