@@ -4,6 +4,10 @@ echo "//selection sortn";
 $data=array(6,5,3,1,8,7,2,4);
 function selection_sort($data){
   $n=count($data);
+
+  echo "jumlah data : " .$n."<br>";
+
+  
   for ($i = 0;$i<$n;$i++){
     $k = $i;
     for ($j = $i+1;$j<$n;$j++){
